@@ -1,0 +1,38 @@
+.header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    cursor: pointer;
+}
+
+.header__ul {
+    display: flex;
+    gap: 47px;
+}
+
+.header__li {
+    cursor: pointer;
+    list-style-type: none;
+    transition: 0.3s;
+    color: #48555B;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.091px;
+}
+
+.header__li:hover {
+    color: #00A4E5;
+}
+
+.header__hr {
+    height: 1;
+    background-color: #E6E6E6;
+}
