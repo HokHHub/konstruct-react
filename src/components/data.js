@@ -22,7 +22,18 @@ export const data = [
     {
         'section': 'Story',
         "data": [
-
+            {
+                img: './img/deliver.png',
+                text: 'PLAN',
+            },
+            {
+                img: './img/manage.png',
+                text: 'MANAGE',
+            },
+            {
+                img: './img/plan.png',
+                text: 'BUILD',
+            },
         ]
     }
 ]
