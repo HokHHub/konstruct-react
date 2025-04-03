@@ -1,12 +1,13 @@
 import s from './OurCapabilities.module.css'
 import Card from '../Card/Card'
 import { data } from '../data'
+import Container from '../Container/Container'
 
 export default function OurCapabilities() {
     return (
         <>
             <section className={s.OurCapabilities}>
-                <div className={s.container}>
+                <Container>
                     <div className={s.title}>
                         <div className={s.title__name}>
                             <h2 className={s.title__name_h2}>OUR CAPABILITIES</h2>
@@ -23,7 +24,7 @@ export default function OurCapabilities() {
                                 ))
                         )}
                     </div>
-                </div>
+                </Container>
             </section>
         </>
     )
