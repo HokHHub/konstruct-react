@@ -1,4 +1,6 @@
 import s from './Story.module.css'
+import StoryCard from '../StoryCard/StoryCard'
+import { data } from '../data.js'
 
 function Story() {
 
@@ -14,9 +16,12 @@ function Story() {
         </div>
 
         <div className={s.story__cards}>
-          <div style={{'height':'225px', 'width':'140px', 'backgroundColor':'red'}}></div>
-          <div style={{'height':'225px', 'width':'140px', 'backgroundColor':'red'}}></div>
-          <div style={{'height':'225px', 'width':'140px', 'backgroundColor':'red'}}></div>
+          {data.filter((el) => el.section === 'Story')
+            .flatMap((el) =>
+              el.data.map((item, i) => (
+                <StoryCard img={item.img} text={item.text} key={i} />
+              ))
+            )}
         </div>
       </div>
 

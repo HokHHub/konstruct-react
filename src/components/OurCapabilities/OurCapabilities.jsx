@@ -19,7 +19,6 @@ export default function OurCapabilities() {
                         {data.filter((el) => el.section === 'Capabilities')
                             .flatMap((el) =>
                                 el.data.map((item, i) => (
-                                    
                                     <Card img={item.img} title={item.title} descr={item.descr} key={i} />
                                 ))
                         )}
