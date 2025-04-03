@@ -1,9 +1,9 @@
 import s from './OurCapabilities.module.css'
 import Card from '../Card/Card'
-import {data} from '../data'
+import { data } from '../data'
 
-export default function OurCapabilities(){
-    return(
+export default function OurCapabilities() {
+    return (
         <>
             <section className={s.OurCapabilities}>
                 <div className={s.container}>
@@ -16,9 +16,13 @@ export default function OurCapabilities(){
                         <button className={s.title__button}>ALL SERVICES</button>
                     </div>
                     <div className={s.articles}>
-                        {data.map((el, i)=>(
-                            <Card img={el.img} title={el.title} descr={el.descr} key={i}/>
-                        ))}
+                        {data.filter((el) => el.section === 'Capabilities')
+                            .flatMap((el) =>
+                                el.data.map((item, i) => (
+                                    
+                                    <Card img={item.img} title={item.title} descr={item.descr} key={i} />
+                                ))
+                        )}
                     </div>
                 </div>
             </section>
