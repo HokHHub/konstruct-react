@@ -1,8 +1,6 @@
 .story {
-    max-width: 940px;
-    margin: 0 auto;
-    margin-top: 48px;
-    margin-bottom: 127px;
+    padding-top: 48px;
+    padding-bottom: 127px;
 }
 
 .story__title {
