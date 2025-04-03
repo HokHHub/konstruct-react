@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url('./OpenSans.ttf');
+  src: url('/fonts/OpenSans.ttf');
 }
 
 :root {
