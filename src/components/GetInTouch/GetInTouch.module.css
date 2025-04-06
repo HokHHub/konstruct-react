@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     padding-top: 120px;
+    background-size: cover;
 }
 .GetInTouch__text{
     display: flex;
@@ -49,4 +50,8 @@
     border: 1px solid #00A4E5;
     margin-bottom: 230px;
     cursor: pointer;
+}
+.GetInTouch__button:hover{
+    background: #FFF;
+    color: #00A4E5;
 }

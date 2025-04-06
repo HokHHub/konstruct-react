@@ -83,3 +83,7 @@
     stroke-width: 2px;
     background-color: #00A4E5;
 }
+.title__button:hover{
+    background: #FFF;
+    color: #00A4E5;
+}
