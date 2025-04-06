@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import headerStyle from './components/Header/Header.module.css'
 import GetInTouch from './components/GetInTouch/GetINTouch'
 import Form from './components/Form/Form'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <OurCapabilities />
       <GetInTouch/>
       <Form/>
+      <Footer/>
     </>
   )
 }
