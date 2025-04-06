@@ -1,0 +1,44 @@
+.GetInTouch{
+    background-image: url(../../../public/img/GetInTouch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 120px;
+}
+.GetInTouch__text{
+    display: flex;
+    width: 350px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #48555B;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 120% */
+    letter-spacing: 0.15px;
+}
+.GetInTouch__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.GetInTouch__button{
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #00A4E5;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    border: 1px solid #00A4E5;
+}
