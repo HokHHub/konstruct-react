@@ -27,6 +27,12 @@
     align-items: center;
     gap: 35px;
 }
+.GetInTouch__hr{
+    width: 100%;
+    height: 1px;
+    background-color: #FFF;
+    border: none;
+}
 .GetInTouch__button{
     width: 150px;
     height: 40px;
@@ -41,4 +47,6 @@
     line-height: normal;
     letter-spacing: 0.5px;
     border: 1px solid #00A4E5;
+    margin-bottom: 230px;
+    cursor: pointer;
 }

@@ -10,6 +10,7 @@ export default function GetInTouch(){
                         <button className={s.GetInTouch__button}>GET IN TOUCH</button>
                     </div>
                 </Container>
+                <hr className={s.GetInTouch__hr}/>
             </section>
         </>
     )

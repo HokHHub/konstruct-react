@@ -1,0 +1,16 @@
+.footer{
+    background: #171819;
+    padding: 22px 0 23px;
+}
+
+.footer__text{
+    width: max-content;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.846px;
+    margin: 0 auto;
+}
