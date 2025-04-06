@@ -3,7 +3,7 @@ import OurCapabilities from './components/OurCapabilities/OurCapabilities'
 import Header from './components/Header/Header'
 import headerStyle from './components/Header/Header.module.css'
 import GetInTouch from './components/GetInTouch/GetINTouch'
-import Footer from './components/Footer/Footer'
+import Form from './components/Form/Form'
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <Story />
       <OurCapabilities />
       <GetInTouch/>
-      <Footer/>
+      <Form/>
     </>
   )
 }
